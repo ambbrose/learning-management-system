@@ -52,7 +52,7 @@ const CoursePage = async ({ params }: { params: { courseId: string } }) => {
         redirect('/');
     };
 
-    const requiredFields: Course = [
+    const requiredFields = [
         course.title,
         course.description,
         course.imageUrl,
