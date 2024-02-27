@@ -35,7 +35,7 @@ const ChapterPage = async ({ params }: { params: { courseId: string, chapterId: 
         return redirect('/');
     };
 
-    const requiredFields: Chapter = [
+    const requiredFields = [
         chapter.title,
         chapter.description,
         chapter.videoUrl
